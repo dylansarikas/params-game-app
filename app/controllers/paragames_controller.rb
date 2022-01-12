@@ -40,6 +40,10 @@ class ParagamesController < ApplicationController
     render json: output
   end
 
+  # def guess_game_seg
+  #   params.guess_game
+  # end
+
   def sum_game
     first = params[:first_number].to_i
     second = params[:second_number].to_i
